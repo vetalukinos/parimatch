@@ -15,16 +15,42 @@
     <header class="header">
         <div class="container">
             <a href="#" class="logo"><img src="images/logo.png" alt="Parimatch"></a>
-            <a href="#" class="login"><span>Регистрация</span></a>
+            <a href="#" class="login">Регистрация</a>
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <div class="content">
-                <div class="content-group"></div>
+        <section class="c-section">
+            <div class="background_player player-1">
+                <img src="images/player-1.png" />
             </div>
-        </div>
-        <div class="parallax"></div>
+            <div class="background_player player-2">
+                <img src="images/player-2.png" />
+            </div>
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="content-block">
+                        <img src="images/banner_text.png" class="banner-text" />
+                        <div class="buttons-block">
+                            <div class="buttons-left">
+                                <a href="#" class="btn_bet">Сделать ставку</a>
+                                <div class="text_after_btn">+100% к депозиту</div>
+                                <a href="#" class="rules">Правила и условия</a>
+                            </div>
+                            <div class="buttons-right">
+                                <a href="#" class="btn_watch">Смотреть</a>
+                                <div class="text_after_btn">Детали турнира</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="scene" data-relative-input="true" class="parallax">
+                <div class="background_car_wrapper" data-depth="0.15">
+                    <img class="background_car" src="images/car.png" alt="">
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
@@ -38,24 +64,24 @@
             </div>
             <div class="footer-center">
                 <ul>
-                    <li><a href="https://www.facebook.com" class="facebook" target="_blank"></a></li>
-                    <li><a href="https://vk.com" class="vk" target="_blank"></a></li>
+                    <li>
+                        <a href="#" class="app-store" target="_blank">
+                            <img src="images/app_store.png" alt="app-store" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="google-play" target="_blank">
+                            <img src="images/google_play.png" alt="google-play" />
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-right">
                 <div class="footer-trust"></div>
                 <div class="footer-social">
                     <ul>
-                        <li>
-                            <a href="#" class="app-store" target="_blank">
-                                <img src="images/app_store.png" alt="app-store" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="google-play" target="_blank">
-                                <img src="images/google_play.png" alt="google-play" />
-                            </a>
-                        </li>
+                        <li><a href="https://www.facebook.com" class="facebook" target="_blank"></a></li>
+                        <li><a href="https://vk.com" class="vk" target="_blank"></a></li>
                     </ul>
                 </div>
             </div>
@@ -63,8 +89,10 @@
     </footer>
 </div>
 
-
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<!--<script src="js/jquery.parallax.min.js"></script>
+<script src="js/jquery.event.frame.js"></script>-->
 <script src="js/main.js"></script>
 </body>
 </html>

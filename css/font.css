@@ -4,7 +4,17 @@
     src: url('../fonts/Circe-Regular/Circe-Regular.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Circe-Regular/Circe-Regular.woff') format('woff'),
     url('../fonts/Circe-Regular/Circe-Regular.ttf') format('truetype'),
-    url('../fonts/Circe-Regular/Circe-Regular.svg#koratakiregular') format('svg');
+    url('../fonts/Circe-Regular/Circe-Regular.svg#Circe-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../fonts/Circe-Bold/Circe-Bold.eot');
+    src: url('../fonts/Circe-Bold/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Circe-Bold/Circe-Bold.woff') format('woff'),
+    url('../fonts/Circe-Bold/Circe-Bold.ttf') format('truetype'),
+    url('../fonts/Circe-Bold/Circe-Bold.svg#Circe-Bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }

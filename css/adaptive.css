@@ -1,5 +1,49 @@
-@media (max-width: 980px) {
-
+@media (max-width: 1919px) {
+    .c-section {
+        min-height: 940px;
+    }
+    .player-1, .player-2 {
+        width: 500px;
+    }
+    .background_car {
+        width: 591px;
+    }
+}
+@media (max-width: 1600px) {
+    .player-1, .player-2 {
+        width: 400px;
+    }
+}
+@media (max-width: 1450px) {
+    .player-1, .player-2 {
+        width: 300px;
+    }
+}
+@media (max-width: 1280px) {
+    .player-1, .player-2 {
+        width: 250px;
+    }
+}
+@media (max-width: 1200px) {
+    .c-section {
+        padding-bottom: 700px;
+    }
+    .background_car_wrapper {
+        text-align: center;
+    }
+    .background_car {
+        position: unset;
+        margin: 120px auto 60px;
+    }
+    .player-1 {
+        width: 45%;
+    }
+    .player-2 {
+        width: 55%;
+    }
+    .content-wrapper {
+        bottom: 45%;
+    }
 }
 @media (max-width: 768px) {
 
@@ -7,9 +51,6 @@
 @media (max-width: 480px) {
 
 }
-
-
-
 
 
 
